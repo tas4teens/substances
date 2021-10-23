@@ -38,7 +38,7 @@ body{
 
 #emergencyHeader{
     color: white;
-    background-color: #f56042;
+    background-color: #f08400;
     margin-bottom: 0;
     display: flex;
     z-index: 2;
@@ -265,7 +265,7 @@ a{
 @media only screen and (orientation: portrait){
     #emergencyMobileHeader{
         display: block;
-        background-color: #f56042;
+        background-color: #f08400;
         font-weight: bold;
         color: white;
         display: flex;

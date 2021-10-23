@@ -1,0 +1,91 @@
+#title{
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 325%;
+    background-image: url('https://images.pexels.com/photos/5537949/pexels-photo-5537949.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    color: white;
+    background-size: 100%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    background-position: 50% 54%;
+}
+
+#content{
+    display: flex;
+    width: 98.03%;
+    justify-content: center;
+}
+
+#navigationDiv{
+    width: 25%;
+    background-color: green;
+    padding-bottom: 0;
+    margin-bottom: auto;
+    border-top-right-radius: 30px;
+    margin-top: 1%;
+}
+
+#contentDiv{
+    width: 75%;
+}
+
+#navigationText{
+    color: white;
+    font-size: 190%;
+    margin-left: 15%;
+    text-decoration: underline;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.navigationLink{
+    color: white;
+    padding-left: 15%;
+    font-size: 135%;
+    -webkit-user-select: none;  
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 3%;
+}
+
+.navigationLink:hover{
+    background-color: #4fb86a;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.subtitle{
+    margin-left: 7.5%;
+    color: black;
+    font-weight: bold;
+    font-size: 185%;
+    padding-left: 1.5%;
+    border-left: 4px solid green;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.citations{
+    color: green;
+}
+
+.bodyText{
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    font-size: 135%;
+    line-height: 1.6;
+}
+
+#brightLink{
+    color: blue;
+    text-decoration: underline;
+    -webkit-user-select: none;
+}
+
+#brightLink:hover{
+    cursor: pointer;
+}
