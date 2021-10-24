@@ -9,21 +9,28 @@
     padding-top: 12%;
     padding-bottom: 12%;
     background-position: 50% 54%;
+    font-family: 'newsreader', 'serif';
+    z-index: 2;
 }
 
 #content{
     display: flex;
-    width: 98.03%;
+
     justify-content: center;
+    font-family: 'newsreader', serif;
 }
 
 #navigationDiv{
     width: 25%;
-    background-color: green;
     padding-bottom: 0;
     margin-bottom: auto;
-    border-top-right-radius: 30px;
-    margin-top: 1%;
+
+    position: sticky;
+    align-self: flex-start;
+    top: 0%;
+    border-top: 6px solid darkgreen;
+ 
+    z-index: 1;
 }
 
 #contentDiv{
@@ -31,7 +38,7 @@
 }
 
 #navigationText{
-    color: white;
+    /*color: white;*/
     font-size: 190%;
     margin-left: 15%;
     text-decoration: underline;
@@ -40,7 +47,7 @@
 }
 
 .navigationLink{
-    color: white;
+    /*color: white;*/
     padding-left: 15%;
     font-size: 135%;
     -webkit-user-select: none;  
@@ -67,6 +74,7 @@
     border-left: 4px solid green;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
+    margin-top: 5%;
 }
 
 .citations{
@@ -88,4 +96,108 @@
 
 #brightLink:hover{
     cursor: pointer;
+}
+
+.image{
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.imageSubTitle{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 135%;
+    text-align: center;
+}
+
+.example{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 74%;
+    background-color: lightgray;
+    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 3px solid green;
+    line-height: 1.4;
+    margin-bottom:7%;
+    margin-top: 4%;
+}
+
+.showMoreText{
+    opacity: 1;
+    font-size: 135%;
+    font-style: italic;
+}
+
+.showMoreTextCaption{
+    font-size: 125%;
+}
+
+@media only screen and (orientation: portrait){
+
+    #title{
+        font-size: 8vw;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        
+    }
+    #content{
+        flex-direction: column;
+    }
+
+    #navigationDiv{
+        width: 80%;
+        background-color: whitesmoke;
+        border-top: none;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: 2px solid darkgreen;
+        margin-top: 5%;
+        border-radius: 15px;
+        padding-bottom: 2%;
+        position: relative;
+    }
+
+    #navigationText{
+        padding-left: 8%;
+        margin-left: 0;
+        font-size: 6vw;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    .navigationLink{
+        font-size: 4.5vw;
+        padding-left: 8%;
+        padding-right: 8%;
+        margin-left: 0;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border-radius: 15px;
+        text-decoration: underline;
+    }
+
+    .navigationLink:hover{
+        text-decoration: underline;
+        font-weight: bold;
+        background-color: whitesmoke;
+    }
+
+    #contentDiv{
+        width: 100%;
+    }
+    .subtitle{
+        font-size: 6.5vw;
+        padding-left: 3%;
+        margin-top: 12%;
+    }
+
+    .bodyText{
+        font-size: 4.75vw;
+    }
 }
