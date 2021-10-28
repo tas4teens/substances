@@ -48,6 +48,8 @@
 
 .navigationLink{
     /*color: white;*/
+    color: black;
+
     padding-left: 15%;
     font-size: 135%;
     -webkit-user-select: none;  
@@ -138,6 +140,29 @@
     font-size: 125%;
 }
 
+.indivCriteriaHolder{
+    font-size: 135%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    display: flex;
+}
+
+.bullet{
+    height: 14px;
+    width: 14px;
+    border: 2px solid darkgreen;
+    border-radius: 30%;
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bulletText{
+    max-width: 90%;
+    margin-top: 2.3%;
+    margin-bottom: 1.9%;
+}
 @media only screen and (orientation: portrait){
 
     #title{
@@ -148,6 +173,7 @@
     }
     #content{
         flex-direction: column;
+        justify-content: center;
     }
 
     #navigationDiv{
@@ -198,6 +224,55 @@
     }
 
     .bodyText{
+        margin-left: 7.5%;
+        margin-right: 7.5%;
         font-size: 4.75vw;
+    }
+
+    .example{
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        width: 79%;
+        border: 1.5px solid darkgreen;
+        padding-bottom: 0%;
+        padding-top: 0%;
+    }
+
+    .showMoreText{
+        font-size: 4.75vw;
+        line-height: 1.5;
+    }
+
+    .showMoreTextCaption{
+        font-size: 4.5vw;
+    }
+
+    .image{
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+    }
+
+    .imageSubTitle{
+        font-size: 4.5vw;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .bulletText{
+        font-size: 5vw;
+        max-width: 85%;
+        line-height: 1.4;
+    }
+
+    .bullet{
+        margin-right: 5%;
+        width: 10px;
+        height: 10px;
+        border-radius: 40%;
+    }
+
+    .indivCriteriaHolder{
+        margin-top: 2%;
     }
 }

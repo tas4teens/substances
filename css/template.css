@@ -263,6 +263,9 @@ a{
 }
 
 @media only screen and (orientation: portrait){
+    body{
+        overflow-x: hidden;
+    }
     #emergencyMobileHeader{
         display: block;
         background-color: #f08400;

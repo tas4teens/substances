@@ -40,3 +40,5 @@ for (var i = 0; i < allSubstances.length; i++){
     img.setAttribute('src', allSubstances[i].image);
     document.getElementsByClassName('linkHolder')[i].appendChild(img);
 }
+
+
