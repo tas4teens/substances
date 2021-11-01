@@ -95,6 +95,8 @@
     margin-right: 20%;
 }
 
+
+
 @media only screen and (orientation: portrait){
     #title, #allSubstances{
         font-size: 6vw;
