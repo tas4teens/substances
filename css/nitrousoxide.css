@@ -145,7 +145,7 @@
 
 .showMoreText{
     opacity: 1;
-    font-size: 135%;
+    font-size: 125%;
     font-style: italic;
 }
 
@@ -182,6 +182,7 @@
     max-width: 90%;
     margin-top: 2.3%;
     margin-bottom: 1.9%;
+    line-height: 1.4;
 }
 
 #bold{
@@ -235,10 +236,10 @@
         word-wrap: break-word;
     }
     #title{
-        font-size: 8vw;
+        font-size: 8.25vw;
         padding-top: 20%;
         padding-bottom: 20%;
-        
+        line-height: 1.2;
     }
     #content{
         flex-direction: column;
@@ -297,12 +298,13 @@
         font-size: 6.5vw;
         padding-left: 3%;
         margin-top: 12%;
+        margin-left: 5%;
     }
 
     .bodyText{
-        margin-left: 7.5%;
-        margin-right: 7.5%;
-        font-size: 4.65vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 4.95vw;
     }
 
     .example{
@@ -360,6 +362,12 @@
         opacity: 0.8;
     }
 
+    #linkToNextPageHolder{
+        justify-content: center;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+
     #leftLink{
         display: block;
         margin-top: 5%;
@@ -368,10 +376,10 @@
         padding: 1%;
         padding-left: 2%;
         padding-right: 2%;
-        border: 2px solid darkgreen;
-        font-size: 3.75vw;
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
+ 
+        font-size: 4vw;
+        border: none;
+        
     
     }
     
@@ -383,10 +391,8 @@
         padding: 1%;
         padding-left: 2%;
         padding-right: 2%;
-        border: 2px solid darkgreen;
-        font-size: 3.75vw;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        margin-left: 5%;
+
+        font-size: 4vw;
+        border: none;
     }
 }
